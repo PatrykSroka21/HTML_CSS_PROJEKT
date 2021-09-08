@@ -1,0 +1,6 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "json.schemas": [],
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
+}
