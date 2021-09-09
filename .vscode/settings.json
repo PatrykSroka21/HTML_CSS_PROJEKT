@@ -2,5 +2,7 @@
     "files.trimTrailingWhitespace": true,
     "json.schemas": [],
     "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true
 }

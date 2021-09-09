@@ -1,0 +1,45 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header > img{
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+li > i{
+display: block;
+width: 17em;
+}
+nav{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+
+}
+    ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+    .burger-pic>img{
+    width: 17em;
+}
+
+    .nav-items{
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    border-style: solid;
+    transition: all .2s ease-in-out;
+    display: block;
+    margin-top: 2rem;
+}
+    .nav-items:hover{
+    transform: scale(1.1);
+}
