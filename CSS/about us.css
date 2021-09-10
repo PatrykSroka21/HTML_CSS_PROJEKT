@@ -6,7 +6,6 @@ header > img{
     width: 100%;
     width: -moz-available;
     width: -webkit-fill-available;
-    width: fill-available;
 }
 nav{
     display: flex;
@@ -25,4 +24,18 @@ margin-top: 2rem;
 }
 .nav-items:hover{
 transform: scale(1.1);
+}
+
+p, h1{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+p > section{
+    margin-top: 10px;
+}
+section{
+width: 100%;
+background-color: #d70021;
+border-radius: 10px;
 }
