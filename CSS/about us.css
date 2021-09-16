@@ -26,6 +26,18 @@ nav {
   border-color: black;
   color: black;
 }
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  background-image: linear-gradient(360deg, #000 0%, #0000 100%);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  position: relative;
+  padding-bottom: 276px;
+}
+
 .nav-items:hover {
   transform: scale(1.1);
 }
@@ -53,12 +65,7 @@ footer {
   justify-content: center;
 }
 
-@media (min-width: 550px) {
-  .nav-items {
-    float: left;
-    display: inline;
-  }
-  nav {
-    align-items: flex-start;
-  }
+@media (min-width: 650px){
+
+  
 }
