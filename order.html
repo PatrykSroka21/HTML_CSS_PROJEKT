@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/order.css" />
+    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="stylesheet" href="https://unpkg.com/sanitize.css" />
+    <link rel="icon" href="Img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="Img/favicon.ico" type="image/x-icon" />
     <script src="script.js" async></script>
     <title></title>
   </head>
@@ -14,12 +22,32 @@
       <img src="Img/Logo.svg" alt="logo" />
     </header>
 
+    <div>
+      <img src="/Img/hamburger-background.jpg" id="burger-background" alt="" />
+      <nav id="flex-container">
+        <a href="home.html" class="nav-items">Menu</a>
+        <a href="" class="nav-items">Order</a>
+        <a href="about us.html" class="nav-items">About us</a>
+      </nav>
+    </div>
+
     <section class="container content-section">
-      <h2 class="section-header">Borgir</h2>
+      <h2 class="section-header">
+        Order our unique selection of tasty burgers below
+      </h2>
+      <i class="fa fa-long-arrow-down"></i>
+    </section>
+
+    <section class="container content-section">
+      <h2 class="section-header">Our current selection:</h2>
       <div class="shop-items">
         <div class="shop-item">
           <span class="shop-item-title">A Royal with Cheese</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/royalewithcheese.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$12.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -29,7 +57,11 @@
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Paris Burger</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/blaccburger.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$14.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -39,7 +71,11 @@
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Donut Burger</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/bagelburger.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$9.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -49,7 +85,11 @@
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Family Meal For One</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/burgermeal.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$19.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -59,7 +99,11 @@
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Burger Takeaway Box</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/burgermeal2.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$15.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -69,7 +113,11 @@
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Hamburger with fries</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/burgerwithfries.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$12.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -79,7 +127,11 @@
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Cheeseburger</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/cheeseburger.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$15.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -89,7 +141,11 @@
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Connoisseur Burger</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/connoisseurburger.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$19.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -99,7 +155,11 @@
         </div>
         <div class="shop-item">
           <span class="shop-item-title">Vegan Burger</span>
-          <img class="shop-item-image" src="" />
+          <img
+            class="shop-item-image"
+            src="Img/crunchyburger.jpg"
+            alt="hamburger"
+          />
           <div class="shop-item-details">
             <span class="shop-item-price">$15.99</span>
             <button class="btn btn-primary shop-item-button" type="button">
@@ -126,5 +186,6 @@
         PURCHASE
       </button>
     </section>
+    <footer>Borgir AB &copy; 2021</footer>
   </body>
 </html>
