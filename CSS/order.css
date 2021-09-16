@@ -8,6 +8,20 @@ header > img {
   width: -moz-available;
   width: -webkit-fill-available;
   width: fill-available;
+  background-color: rgb(15, 15, 15);
+}
+#flex-container img {
+  width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  position: absolute;
+  top: 0;
+  /* margin-top: 276px; */
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 li > i {
   display: block;
@@ -105,29 +119,20 @@ body {
 
 .main-header {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url("Images/Header Background.jpg");
+  background-image: url("Images/.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
-}
-
-.band-name {
-  text-align: center;
-  margin: 0;
-  font-size: 4em;
-  font-family: "Booter - Zero Zero";
-  font-weight: normal;
-  color: white;
-}
-
-.band-name-large {
-  font-size: 8em;
 }
 
 .content-section {
   margin: 1em;
 }
 
+.fa-long-arrow-down {
+  color: white;
+  margin: 40 px auto;
+}
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -136,17 +141,12 @@ body {
 .section-header {
   font-family: "Metal Mania";
   font-weight: normal;
-  color: #333;
+  color: white;
   text-align: center;
   font-size: 2.5em;
-}
-
-.about-band-image {
-  float: left;
-  height: 200px;
-  width: 200px;
-  margin: 15px;
-  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .main-footer {
@@ -221,39 +221,6 @@ body {
   background-color: #2d9cdb;
 }
 
-.tour-row {
-  border-bottom: 1px solid black;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-}
-
-.tour-row:last-child {
-  border: none;
-}
-
-.tour-item {
-  display: inline-block;
-  padding-right: 0.5em;
-}
-
-.tour-date {
-  color: #555;
-  width: 11%;
-  font-weight: bold;
-}
-
-.tour-city {
-  width: 24%;
-}
-
-.tour-arena {
-  width: 42%;
-}
-
-.tour-btn {
-  max-width: 19%;
-}
-
 .shop-item {
   margin: 30px;
 }
@@ -264,12 +231,13 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 1.5em;
-  color: #333;
+  color: white;
   margin-bottom: 15px;
 }
 
 .shop-item-image {
   height: 250px;
+  border-radius: 10%;
 }
 
 .shop-item-details {
@@ -280,7 +248,7 @@ body {
 
 .shop-item-price {
   flex-grow: 1;
-  color: #333;
+  color: white;
 }
 
 .shop-items {
@@ -292,7 +260,7 @@ body {
 .cart-header {
   font-weight: bold;
   font-size: 1.25em;
-  color: #333;
+  color: white;
 }
 
 .cart-column {
@@ -315,7 +283,7 @@ body {
 .cart-price {
   width: 20%;
   font-size: 1.2em;
-  color: #333;
+  color: white;
 }
 
 .cart-quantity {
@@ -323,7 +291,7 @@ body {
 }
 
 .cart-item-title {
-  color: #333;
+  color: white;
   margin-left: 0.5em;
   font-size: 1.2em;
 }
@@ -376,12 +344,12 @@ body {
 .cart-total-title {
   font-weight: bold;
   font-size: 1.5em;
-  color: black;
+  color: white;
   margin-right: 20px;
 }
 
 .cart-total-price {
-  color: #333;
+  color: white;
   font-size: 1.1em;
 }
 
