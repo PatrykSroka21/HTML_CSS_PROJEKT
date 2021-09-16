@@ -129,10 +129,15 @@ body {
   margin: 1em;
 }
 
-.fa-long-arrow-down {
-  color: white;
-  margin: 40 px auto;
+.arrow {
+  margin-right: 150px;
+  margin-left: 800px;
+  font-size: 5em;
 }
+.fa {
+  color: teal;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;
