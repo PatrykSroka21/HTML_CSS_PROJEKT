@@ -183,6 +183,7 @@ footer {
   }
   .burger-pic {
     flex-direction: column;
+    flex: 0 0 33%;
   }
   #borgir-logo img {
     width: 17%;
