@@ -2,6 +2,9 @@
   font-family: shredded;
   src: url("shredded.ttf") format(truetype);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: rgb(2, 0, 27);
 }
@@ -136,9 +139,10 @@ footer {
   color: white;
 }
 
-@media (min-width: 980px) {
+@media (min-width: 650px) {
   header > img {
-    width: 35%;
+    width: 25%;
+    max-height: 200px;
   }
   header {
     width: 100%;
@@ -186,7 +190,7 @@ footer {
   #burger-background {
     background-position: center;
     object-fit: cover;
-    max-height: 110%;
+    max-height: 97%;
   }
   .nav-items {
     width: 25%;
